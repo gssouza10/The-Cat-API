@@ -26,11 +26,11 @@ public class GlassesCatModel {
 		this.id = id;
 	}
 
-	public String getName() {
+	public String getUrl() {
 		return url;
 	}
 
-	public void setName(String url) {
+	public void setUrl(String url) {
 		this.url = url;
 	}
 }
