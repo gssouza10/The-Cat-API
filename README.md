@@ -42,22 +42,32 @@ Utilizando injeção de dependências pelo dump fazendo backup do MYSQL, rodando
 <a href="https://imgur.com/rN8i1ba"><img src="https://i.imgur.com/rN8i1ba.png" title="source: imgur.com" /></a>
 9. espere rodar até aparecer a mensagem JVN running e logo após aperte ctrl+C e digite o seguinte comando: docker exec -i src_db_1 mysql -uroot -p"Admin357/" db_thecatapi < db.sql <br><br>
 <a href="https://imgur.com/JNXfTyX"><img src="https://i.imgur.com/JNXfTyX.png" title="source: imgur.com" /></a>
-10. Abra o Postman e clique em import 
+10. Abra o Postman e clique em import <br><br>
 <a href="https://imgur.com/q04huKj"><img src="https://i.imgur.com/q04huKj.png" title="source: imgur.com" /></a>
-11. Depois clique em Upload Files
+11. Depois clique em Upload Files <br><br>
 <a href="https://imgur.com/usnKHRU"><img src="https://i.imgur.com/usnKHRU.png" title="source: imgur.com" /></a>
-12. Entre na pasta The-Cat-API
+12. Entre na pasta The-Cat-API <br><br>
 <a href="https://imgur.com/yU4l81l"><img src="https://i.imgur.com/yU4l81l.png" title="source: imgur.com" /></a>
-13. Clique em Documentação 
+13. Clique em Documentação <br><br>
 <a href="https://imgur.com/ZNF8f7o"><img src="https://i.imgur.com/ZNF8f7o.png" title="source: imgur.com" /></a>
-14. Clique no arquivo The Cat API .postman_collection e em abrir
+14. Clique no arquivo The Cat API .postman_collection e em abrir <br><br>
 <a href="https://imgur.com/Ldwwnpj"><img src="https://i.imgur.com/Ldwwnpj.png" title="source: imgur.com" /></a>
-15. Clique em import
+15. Clique em import<br><br>
 <a href="https://imgur.com/jxBhPSu"><img src="https://i.imgur.com/jxBhPSu.png" title="source: imgur.com" /></a>
-16. Clique no método que deseja testar
+16. Clique no método que deseja testar e depois <br><br>
 <a href="https://imgur.com/TvXQssc"><img src="https://i.imgur.com/TvXQssc.png" title="source: imgur.com" /></a>
-17. Exemplo de Breeds(raças):
+17. Exemplos de Breeds(raças) clicando em send: <br><br>
 <a href="https://imgur.com/Yx2pVzZ"><img src="https://i.imgur.com/Yx2pVzZ.png" title="source: imgur.com" /></a>
+18. Exemplo de Breeds por id (raça específica), não esqueça de passar o /id desejado depois de '/breeds' e clicar em send: <br><br>
+<a href="https://imgur.com/cg5krBq"><img src="https://i.imgur.com/cg5krBq.png" title="source: imgur.com" /></a>
+19. Exemplo de Breeds por temperament(raça por temperamento , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/breeds' e clicar em send: <br><br>
+<a href="https://imgur.com/RdETNED"><img src="https://i.imgur.com/RdETNED.png" title="source: imgur.com" /></a>
+20.Exemplo de Breeds por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/breeds' e clicar em send: <br><br>
+<a href="https://imgur.com/Ad15TEW"><img src="https://i.imgur.com/Ad15TEW.png" title="source: imgur.com" /></a>
+21. Exemplo de gatos de Glasses(Óculos) clicando em send: <br><br>
+<a href="https://imgur.com/8d0jTFP"><img src="https://i.imgur.com/8d0jTFP.png" title="source: imgur.com" /></a>
+22. Exemplo de gatos de Hat(Chapéu) clicando em send: <br><br>
+<a href="https://imgur.com/zcp3ttB"><img src="https://i.imgur.com/zcp3ttB.png" title="source: imgur.com" /></a>
 
 
 
