@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "0e9f2e4a-2cac-4b1e-87fc-8d3ea643aa4c",
+		"name": "The Cat API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listar todas as raças",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/breeds",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"breeds"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listar informações de raças específicas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/breeds/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"breeds",
+						"1"
+					]
+				},
+				"description": "Depois de '/breeds' você deve passar um id para cada raça específica"
+			},
+			"response": []
+		},
+		{
+			"name": "listar as raças apartir do temperamento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/breeds/temperament/energetic",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"breeds",
+						"temperament",
+						"energetic"
+					]
+				},
+				"description": "Digite depois de '/breeds', /temperament/ + info de temperamento"
+			},
+			"response": []
+		},
+		{
+			"name": "litar raças por origem",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/breeds/origin/canada",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"breeds",
+						"origin",
+						"canada"
+					]
+				},
+				"description": "depois de '/breeds' digite /origin + a origem do gato"
+			},
+			"response": []
+		}
+	]
+}
