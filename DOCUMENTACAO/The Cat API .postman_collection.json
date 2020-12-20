@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "0e9f2e4a-2cac-4b1e-87fc-8d3ea643aa4c",
-		"name": "The Cat API",
+		"_postman_id": "c2036132-7bf2-4a9a-83e9-66045f39f254",
+		"name": "The Cat API ",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -68,7 +68,7 @@
 			"response": []
 		},
 		{
-			"name": "litar raças por origem",
+			"name": "listar raças por origem",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -88,6 +88,64 @@
 				"description": "depois de '/breeds' digite /origin + a origem do gato"
 			},
 			"response": []
+		},
+		{
+			"name": "listar gatos de óculos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/glasses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"glasses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listar gatos de chapéu",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/hat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"hat"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }
