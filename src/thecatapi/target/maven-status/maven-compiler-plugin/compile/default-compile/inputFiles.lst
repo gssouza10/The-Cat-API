@@ -1,0 +1,11 @@
+/thecatapi/src/main/java/com/itau/TheCatApi/TheCatApiApplication.java
+/thecatapi/src/main/java/com/itau/TheCatApi/controller/GlassesCatController.java
+/thecatapi/src/main/java/com/itau/TheCatApi/model/BreedsModel.java
+/thecatapi/src/main/java/com/itau/TheCatApi/controller/BreedsController.java
+/thecatapi/src/main/java/com/itau/TheCatApi/repository/BreedsRepository.java
+/thecatapi/src/main/java/com/itau/TheCatApi/model/HatCatModel.java
+/thecatapi/src/main/java/com/itau/TheCatApi/SwaggerConfig.java
+/thecatapi/src/main/java/com/itau/TheCatApi/model/GlassesCatModel.java
+/thecatapi/src/main/java/com/itau/TheCatApi/repository/GlassesCatRepository.java
+/thecatapi/src/main/java/com/itau/TheCatApi/controller/HatCatController.java
+/thecatapi/src/main/java/com/itau/TheCatApi/repository/HatCatRepository.java
