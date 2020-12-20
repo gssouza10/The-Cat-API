@@ -1,0 +1,11 @@
+com/itau/TheCatApi/model/GlassesCatModel.class
+com/itau/TheCatApi/SwaggerConfig.class
+com/itau/TheCatApi/repository/GlassesCatRepository.class
+com/itau/TheCatApi/controller/HatCatController.class
+com/itau/TheCatApi/model/HatCatModel.class
+com/itau/TheCatApi/repository/HatCatRepository.class
+com/itau/TheCatApi/controller/BreedsController.class
+com/itau/TheCatApi/repository/BreedsRepository.class
+com/itau/TheCatApi/TheCatApiApplication.class
+com/itau/TheCatApi/controller/GlassesCatController.class
+com/itau/TheCatApi/model/BreedsModel.class
