@@ -69,5 +69,3 @@ Utilizando injeção de dependências pelo dump fazendo backup do MYSQL, rodando
 22. Exemplo de gatos de Hat(Chapéu) clicando em send: <br><br>
 <a href="https://imgur.com/zcp3ttB"><img src="https://i.imgur.com/zcp3ttB.png" title="source: imgur.com" /></a>
 
-
-a
