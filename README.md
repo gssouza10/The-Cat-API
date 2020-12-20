@@ -42,5 +42,22 @@ Utilizando injeção de dependências pelo dump fazendo backup do MYSQL, rodando
 <a href="https://imgur.com/rN8i1ba"><img src="https://i.imgur.com/rN8i1ba.png" title="source: imgur.com" /></a>
 9. espere rodar até aparecer a mensagem JVN running e logo após aperte ctrl+C e digite o seguinte comando: docker exec -i src_db_1 mysql -uroot -p"Admin357/" db_thecatapi < db.sql <br><br>
 <a href="https://imgur.com/JNXfTyX"><img src="https://i.imgur.com/JNXfTyX.png" title="source: imgur.com" /></a>
+10. Abra o Postman e clique em import 
+<a href="https://imgur.com/q04huKj"><img src="https://i.imgur.com/q04huKj.png" title="source: imgur.com" /></a>
+11. Depois clique em Upload Files
+<a href="https://imgur.com/usnKHRU"><img src="https://i.imgur.com/usnKHRU.png" title="source: imgur.com" /></a>
+12. Entre na pasta The-Cat-API
+<a href="https://imgur.com/yU4l81l"><img src="https://i.imgur.com/yU4l81l.png" title="source: imgur.com" /></a>
+13. Clique em Documentação 
+<a href="https://imgur.com/ZNF8f7o"><img src="https://i.imgur.com/ZNF8f7o.png" title="source: imgur.com" /></a>
+14. Clique no arquivo The Cat API .postman_collection e em abrir
+<a href="https://imgur.com/Ldwwnpj"><img src="https://i.imgur.com/Ldwwnpj.png" title="source: imgur.com" /></a>
+15. Clique em import
+<a href="https://imgur.com/jxBhPSu"><img src="https://i.imgur.com/jxBhPSu.png" title="source: imgur.com" /></a>
+16. Clique no método que deseja testar
+<a href="https://imgur.com/TvXQssc"><img src="https://i.imgur.com/TvXQssc.png" title="source: imgur.com" /></a>
+17. Exemplo de Breeds(raças):
+<a href="https://imgur.com/Yx2pVzZ"><img src="https://i.imgur.com/Yx2pVzZ.png" title="source: imgur.com" /></a>
+
 
 
