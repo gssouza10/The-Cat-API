@@ -6,6 +6,7 @@
 /thecatapi/src/main/java/com/itau/TheCatApi/model/HatCatModel.java
 /thecatapi/src/main/java/com/itau/TheCatApi/SwaggerConfig.java
 /thecatapi/src/main/java/com/itau/TheCatApi/model/GlassesCatModel.java
+/thecatapi/src/main/java/com/itau/TheCatApi/ConfigureRMI.java
 /thecatapi/src/main/java/com/itau/TheCatApi/repository/GlassesCatRepository.java
 /thecatapi/src/main/java/com/itau/TheCatApi/controller/HatCatController.java
 /thecatapi/src/main/java/com/itau/TheCatApi/repository/HatCatRepository.java
