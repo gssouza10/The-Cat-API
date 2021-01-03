@@ -42,35 +42,36 @@ Utilizando injeção de dependências pelo dump fazendo backup do MYSQL, rodando
 <a href="https://imgur.com/rN8i1ba"><img src="https://i.imgur.com/rN8i1ba.png" title="source: imgur.com" /></a>
 9. espere rodar até aparecer a mensagem JVN running e logo após aperte ctrl+C e digite o seguinte comando: docker exec -i src_db_1 mysql -uroot -p"Admin357/" db_thecatapi < db.sql <br><br>
 <a href="https://imgur.com/JNXfTyX"><img src="https://i.imgur.com/JNXfTyX.png" title="source: imgur.com" /></a>
-10. Abra o Postman e clique em import <br><br>
+10. Depois de ligar o banco de dados digite novamente o comando: docker logs -f id_copiado para ver o console rodando as execuções <br><br>
+11. Abra o Postman e clique em import <br><br>
 <a href="https://imgur.com/q04huKj"><img src="https://i.imgur.com/q04huKj.png" title="source: imgur.com" /></a>
-11. Depois clique em Upload Files <br><br>
+12. Depois clique em Upload Files <br><br>
 <a href="https://imgur.com/usnKHRU"><img src="https://i.imgur.com/usnKHRU.png" title="source: imgur.com" /></a>
-12. Entre na pasta The-Cat-API <br><br>
+13. Entre na pasta The-Cat-API <br><br>
 <a href="https://imgur.com/yU4l81l"><img src="https://i.imgur.com/yU4l81l.png" title="source: imgur.com" /></a>
-13. Clique em Documentação <br><br>
+14. Clique em Documentação <br><br>
 <a href="https://imgur.com/ZNF8f7o"><img src="https://i.imgur.com/ZNF8f7o.png" title="source: imgur.com" /></a>
-14. Clique no arquivo The Cat API .postman_collection e em abrir <br><br>
+15. Clique no arquivo The Cat API .postman_collection e em abrir <br><br>
 <a href="https://imgur.com/Ldwwnpj"><img src="https://i.imgur.com/Ldwwnpj.png" title="source: imgur.com" /></a>
-15. Clique em import<br><br>
+16. Clique em import<br><br>
 <a href="https://imgur.com/jxBhPSu"><img src="https://i.imgur.com/jxBhPSu.png" title="source: imgur.com" /></a>
-16. Clique no método que deseja testar e depois <br><br>
+17. Clique no método que deseja testar e depois <br><br>
 <a href="https://imgur.com/TvXQssc"><img src="https://i.imgur.com/TvXQssc.png" title="source: imgur.com" /></a>
-17. Exemplos de Breeds(raças) clicando em send: <br><br>
+18. Exemplos de Breeds(raças) clicando em send: <br><br>
 <a href="https://imgur.com/Yx2pVzZ"><img src="https://i.imgur.com/Yx2pVzZ.png" title="source: imgur.com" /></a>
-18. Exemplo de Breeds por id (raça específica), não esqueça de passar o /id desejado depois de '/breeds' e clicar em send: <br><br>
+19. Exemplo de Breeds por id (raça específica), não esqueça de passar o /id desejado depois de '/breeds' e clicar em send: <br><br>
 <a href="https://imgur.com/cg5krBq"><img src="https://i.imgur.com/cg5krBq.png" title="source: imgur.com" /></a>
-19. Exemplo de Breeds por temperament(raça por temperamento , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/breeds' e clicar em send: <br><br>
+20. Exemplo de Breeds por temperament(raça por temperamento , não esqueça de passar o /temperament/tipo_de_temperamento desejado depois de '/breeds' e clicar em send: <br><br>
 <a href="https://imgur.com/RdETNED"><img src="https://i.imgur.com/RdETNED.png" title="source: imgur.com" /></a>
-20.Exemplo de Breeds por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/breeds' e clicar em send: <br><br>
+21.Exemplo de Breeds por origin(origem), não esqueça de passar a origin/lugar desejado depois de '/breeds' e clicar em send: <br><br>
 <a href="https://imgur.com/Ad15TEW"><img src="https://i.imgur.com/Ad15TEW.png" title="source: imgur.com" /></a>
-21. Exemplo de gatos de Glasses(Óculos) clicando em send: <br><br>
+22. Exemplo de gatos de Glasses(Óculos) clicando em send: <br><br>
 <a href="https://imgur.com/8d0jTFP"><img src="https://i.imgur.com/8d0jTFP.png" title="source: imgur.com" /></a>
-22. Exemplo de gatos de Hat(Chapéu) clicando em send: <br><br>
+23. Exemplo de gatos de Hat(Chapéu) clicando em send: <br><br>
 <a href="https://imgur.com/zcp3ttB"><img src="https://i.imgur.com/zcp3ttB.png" title="source: imgur.com" /></a>
-23. Sempre após fazer uma requisição no POSTMAN, perceba que uma mensagem de log será gerada em seu console<br><br>
+24. Sempre após fazer uma requisição no POSTMAN, perceba que uma mensagem de log será gerada em seu console<br><br>
 <a href="https://imgur.com/c2K8Jzx"><img src="https://i.imgur.com/c2K8Jzx.png" title="source: imgur.com" /></a>
-24. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado spring.log <br><br>
+25. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado spring.log <br><br>
 <a href="https://imgur.com/3u43LJS"><img src="https://i.imgur.com/3u43LJS.png" title="source: imgur.com" /></a>
 <a href="https://imgur.com/KPkSGw5"><img src="https://i.imgur.com/KPkSGw5.png" title="source: imgur.com" /></a>
 
