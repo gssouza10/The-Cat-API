@@ -68,4 +68,10 @@ Utilizando injeção de dependências pelo dump fazendo backup do MYSQL, rodando
 <a href="https://imgur.com/8d0jTFP"><img src="https://i.imgur.com/8d0jTFP.png" title="source: imgur.com" /></a>
 22. Exemplo de gatos de Hat(Chapéu) clicando em send: <br><br>
 <a href="https://imgur.com/zcp3ttB"><img src="https://i.imgur.com/zcp3ttB.png" title="source: imgur.com" /></a>
+23. Sempre após fazer uma requisição no POSTMAN, perceba que uma mensagem de log será gerada em seu console<br><br>
+<a href="https://imgur.com/c2K8Jzx"><img src="https://i.imgur.com/c2K8Jzx.png" title="source: imgur.com" /></a>
+24. Após o log ser gerado ele ficará gravado em uma pasta de logs chamado spring.log <br><br>
+<a href="https://imgur.com/3u43LJS"><img src="https://i.imgur.com/3u43LJS.png" title="source: imgur.com" /></a>
+<a href="https://imgur.com/KPkSGw5"><img src="https://i.imgur.com/KPkSGw5.png" title="source: imgur.com" /></a>
+
 
